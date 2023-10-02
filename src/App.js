@@ -1,10 +1,10 @@
 import "./App.css";
-
+import Sidebar from "./components/Sidebar";
 function App() {
     return (
-        <div>
-            <h1>Brand Colors</h1>
-        </div>
+        <>
+            <Sidebar />
+        </>
     );
 }
 
