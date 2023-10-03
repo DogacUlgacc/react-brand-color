@@ -70,3 +70,72 @@ body {
 .modal-close-icon svg {
     margin: 10px;
 }
+
+.content {
+    flex: 1;
+    overflow: auto;
+}
+
+.header {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    position: relative;
+    .icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 60px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.search input {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    margin-left: 20px;
+}
+
+.brands {
+    padding: 25px;
+    background: #f2f2f2;
+}
+
+.brand {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    padding: 15px;
+    margin: 12px;
+}
+
+.brand h4 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.brand h5 {
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand-colors {
+    flex-grow: 1;
+    margin-right: 0;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
