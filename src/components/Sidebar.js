@@ -18,10 +18,12 @@ export default function Sidebar() {
                     </a>
                 </div>
                 <div className="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Exercitationem odit non voluptates laborum odio! Dolore id
-                    nam nostrum. Quia repellat commodi accusantium voluptatibus
-                    labore neque assumenda earum harum odit amet!
+                    Brand colors are an essential part of a brand's identity and
+                    help in its recognition, recall, and differentiation. They
+                    typically refer to specific colors carefully chosen for use
+                    in a brand's logo and other marketing materials. These
+                    colors are selected with great care to reflect the character
+                    and values of the brand.
                 </div>
                 <ul className="about">
                     <li>
@@ -40,9 +42,8 @@ export default function Sidebar() {
                 <h2>Brand Colors</h2>
                 <form>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Recusandae aut sapiente expedita laboriosam odit.
-                        Quo deleniti libero obcaecati nam ipsa?
+                        This application was prepared by Dogac Ulgac using
+                        React.
                     </p>
                 </form>
             </Modal>
