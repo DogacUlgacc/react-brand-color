@@ -33,6 +33,8 @@ body {
 
 .logo a {
     font-size: 30px;
+    display: flex;
+    justify-content: center;
 }
 .description {
     font-size: 18px;
